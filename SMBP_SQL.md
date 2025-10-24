@@ -1,6 +1,6 @@
 ## SMBP SQL Helpers
 
-# Boilerplate
+### Boilerplate
 ```
 DECLARE @KEY VARCHAR(10);
 SET @KEY = 'SM51550';
