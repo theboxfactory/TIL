@@ -1,7 +1,7 @@
-# SMBP SQL Helpers
+## SMBP SQL Helpers
 
-## Boilerplate
+# Boilerplate
 ```
-DECLARE @KEY = CHAR(10);
-SET @KEY = 'SM12345'
+DECLARE @KEY VARCHAR(10);
+SET @KEY = 'SM51550';
 ```
