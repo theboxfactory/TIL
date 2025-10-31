@@ -1,4 +1,4 @@
-### SQL Server Connection String - Uuser and Password
+### SQL Server Connection String - User and Password
 
 ```
 Server=IP Address;Database=Database;User Id=IP Address;Password=Password;TrustServerCertificate=True
