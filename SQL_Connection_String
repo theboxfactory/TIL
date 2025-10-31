@@ -1,0 +1,11 @@
+### SQL Server Connection String - Uuser and Password
+
+```
+Server=IP Address;Database=Database;User Id=IP Address;Password=Password;TrustServerCertificate=True
+```
+
+Example:
+
+```
+Server=192.168.1.1.;Database=DBName;User Id=DBUser;Password=DBPassword;TrustServerCertificate=True
+```
