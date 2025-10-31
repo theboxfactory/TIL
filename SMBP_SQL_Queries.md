@@ -1,0 +1,4 @@
+### Fetch case SM12345
+```
+SELECT * FROM LAW2 WHERE LAW_SMFN = 'SM12345'
+```
