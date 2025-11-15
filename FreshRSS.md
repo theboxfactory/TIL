@@ -1,4 +1,4 @@
-# FreshRRS Cheat Sheet
+# FreshRSS Cheat Sheet
 
 ### Get latest Docker version
 ```
