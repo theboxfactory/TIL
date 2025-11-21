@@ -29,3 +29,13 @@ GROUP BY
 ORDER BY
     TotalSpaceMB DESC;
 ```
+
+### Rebuild index to recover space
+
+```
+-- Rebuild the clustered index on a specific table
+ALTER INDEX ALL ON [SchemaName].[TableName] REBUILD;
+-- Or, if you know the index name:
+-- ALTER INDEX [IndexName] ON [SchemaName].[TableName] REBUILD;
+```
+
