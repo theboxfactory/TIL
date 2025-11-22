@@ -56,4 +56,11 @@ ALTER INDEX ALL ON [SchemaName].[TableName] REBUILD;
 -- Or, if you know the index name:
 -- ALTER INDEX [IndexName] ON [SchemaName].[TableName] REBUILD;
 ```
-
+### Recommend missing indexes
+```
+SELECT * FROM sys.dm_db_missing_index_details
+```
+### Update statistics
+```
+    EXEC sp_updatestats
+```
